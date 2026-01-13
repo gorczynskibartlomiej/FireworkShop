@@ -1,0 +1,699 @@
+*
+{
+      margin: 0;
+      padding: 0;
+}
+body 
+{
+      margin: 0;
+      padding: 0;
+      font-family: 'Lucida Sans Unicode';
+}
+img
+{
+      width: 100%;
+      height: 100%;
+}
+.point:hover a {
+    color: rgb(205, 0, 0);
+}
+.titles 
+{
+      font-weight: bold;
+      font-size: x-large;
+}
+.titles-no-click {
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+.titles p
+{
+      font-weight: normal;
+      font-size: large;
+}
+::-webkit-scrollbar 
+{
+      width: 10px;
+}
+::-webkit-scrollbar-track 
+{
+      background: #ebebeb; 
+}
+::-webkit-scrollbar-thumb 
+{
+      background: #b6b6b6; 
+      border-radius: 3em;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+      background: #6f6f6f; 
+}
+.all
+{
+      width: 1200px;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 0px;
+      background-color: rgba(254, 254, 255);
+}
+.logo
+{
+      height:200px;
+      width:25%;
+      float:left;
+}
+.banner
+{
+      height: 200px;
+      width: 100%;
+}
+.banner-item
+{
+      height:125px;
+      width:75%;
+      display: flex;
+
+      align-items: center;
+}
+.search
+{
+      height: 37.5px;
+      width: 50%;
+      padding: 0;
+      background-color: white;
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      float: left;
+      border: rgb(164, 164, 164) 1px solid;
+}
+.search input[type=text]
+{
+      border: none;
+      padding-left: 5px;
+      width: 80%;
+      height: 37.5px;
+      background-color: rgba(0, 0, 0, 0);
+      margin: 0;
+      outline: none;
+}
+.search input[type=submit]
+{
+      float: right;
+      border: none;
+      height: 37.5px;
+      width: 17%;
+      background-color: rgba(0, 0, 0, 0);
+}
+.search input[type=submit]:hover
+{
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      background-color: rgb(240, 240, 240);
+}
+.search input[type=submit]:active
+{
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      background-color: rgb(220, 220, 220);
+}
+.log
+{
+      width: 50%;
+      float: right;    
+}
+.log-items
+{
+      float: right;
+      height: 20px;
+      padding: 1em 0 1em 1em;
+}
+    .log-items:hover {
+        color: rgb(205, 0, 0);
+    }
+.nav
+{
+      float: left;
+      width: 75%;
+      height: 75px;
+      margin: 0;
+      padding: 0;
+}
+.nav a
+{
+      text-decoration: none;
+      color: black;
+}
+.nav a:hover
+{
+      color: rgb(205, 0, 0);
+      background-color: rgb(245, 245, 245);
+}
+.nav ul
+{
+      margin: 0;
+      padding-inline-start: 0em;
+      width: 100%;
+      height: 100%;
+}
+.nav li
+{
+      margin: 0 ;
+      padding: 0 1em 0 1em; 
+      list-style: none;
+      float: left;
+      height: 100%;
+      width: auto;
+      display: flex;
+      align-items: center;
+}
+.nav li:hover
+{
+      color: rgb(205, 0, 0);
+      background-color: rgb(245, 245, 245);
+}
+.main
+{
+      min-height:800px;
+      height: auto;
+      width:100%;
+      clear: both;
+}
+.menu
+{
+      float:left;
+      height: 350px;
+      width:20%;
+      text-align: center;
+      margin: 0px;
+
+}
+.menu a
+{
+      text-decoration: none;
+      color: black;
+}
+.menu ul
+{
+      padding-inline-start: 0em;
+      margin: 0;
+      height: 80%;
+      
+}
+.menu li
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      width: 100%;
+      height: 25%;
+      border-bottom: rgb(235, 235, 235) solid 0.125em;
+}
+.menu li:hover
+{
+      color: rgb(205, 0, 0);
+      background-color: rgb(245, 245, 245);
+}
+.menu p:first-child
+{
+      text-transform: capitalize;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 20%;
+      font-size: xx-large;
+}
+.menu a p:hover 
+{
+    color: rgb(205, 0, 0);
+} 
+.filtry
+{
+    padding-top: 1em;
+      width: 100%;
+      height: auto;
+      padding-left: 1em;
+      text-align: left;
+}
+.filtry p
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;      
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 20%;
+      font-size: x-large;
+}
+.filtry-items
+{
+    font-size: larger;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+.filtry input[type=number]
+{
+    width: 4em;
+    padding: 0.5em;
+    font-size: large;
+    border-radius: 0.5em;
+    border:  1px solid rgb(164, 164, 164);
+}
+.filtry input[type=submit]
+{
+    width: 100%;
+    font-size: large;
+    padding: 0.3em;
+    background-color: rgb(205, 0, 0);
+    color: white;
+    border:  1px solid rgb(164, 164, 164);
+    border-radius: 0.5em;
+}
+.filtry input[type=submit]:hover
+{
+    background-color: rgb(189, 0, 0);
+}
+.filtry input[type=submit]:active
+{
+    background-color: rgb(132, 0, 0);
+}
+/*
+.dropDown 
+{
+      position: relative;
+      display: inline-block;
+}
+.dropDown:hover .dropCont {
+    display: block;
+}
+.dropCont {
+    display: none;
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(100%) translateY(33%);
+}
+.dropCont a 
+{
+      color: black;
+      width: 100%;
+      height: 60px;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.dropCont a:hover 
+{
+      color: rgb(205, 0, 0);
+      background-color: rgb(245, 245, 245);
+}
+*/
+.content-main {
+    padding-top: 1em;
+    height: auto;
+    width: 75%;
+    float: right;
+}
+#fix
+{
+      color:transparent;
+      line-height: 0;
+      white-space: 0;
+      clear: both;
+}
+.content
+{
+      padding: 2em;
+      /* height: auto; */
+      height: auto;
+      width: 74%;
+      float: right;
+
+}
+.content p:first-letter
+{
+    text-transform:uppercase;
+}
+.main-buy
+{
+    height:350px;
+}
+.foto
+{
+      max-width: 40%;
+      max-height: 100%;
+      min-height:100%;
+      min-width:40%;
+      float:left;
+}
+.buy {
+    /*
+    float: left;
+    background-color: red;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+        */
+    float:left;
+    height:75%;
+    width:60%;
+    padding-top:3em;
+}
+.buy-name {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    float: left;
+    padding-bottom: 1em;
+    font-weight:bold;
+}
+.buy-border {
+    border: rgb(164, 164, 164) 1px solid;
+    border-radius: 3em;
+    height:75%;
+    float:left;
+    width:100%;
+
+}
+.buy-cart {
+
+    width: 55%;
+   
+    float:left;
+    height:100%;
+}
+.buy-price {
+    height: 50%;
+    width: 100%;
+    float: left;
+}
+.buy-price p {
+    font-size: medium;
+    text-align:center;
+}
+    .buy-price p:first-child {
+        font-weight: bolder;
+        font-size: xx-large;
+        padding-top: 0.3em;
+    }
+.buy-price-new {
+    text-align: right;
+    width: 55%;
+    float: left;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 0.3em;
+    height:60%;
+    position:relative;
+    padding-bottom:0px;
+    color: green;
+}
+.buy-price-old {    
+    width: 40%;
+    display: flex;
+    height:50%;
+    float: right;  
+    font-size:smaller;
+    color: red;
+}
+.buy-price-old span{
+    align-self:flex-end;
+}
+.buy-add {
+height: 50%;
+width: 100%;
+clear: both;
+}
+.buy-button {
+    border: rgb(164, 164, 164) 1px solid;
+    border-radius: 1.5em;
+    background-color: #f4511e;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: large;
+    padding: 20px 30px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+    .buy-button:hover {
+        background-color: rgb(189, 0, 0);
+    }
+
+    .buy-button :first-child {
+        padding-left: 10px;
+        transition: all 0.5s;
+    }
+
+    .buy-button:hover :first-child {
+        padding-left: 0px;
+    }
+
+    .buy-button :last-child {
+        opacity: 0;
+        transition: all 0.5s;
+        padding-left: 0px;
+    }
+
+    .buy-button:hover :last-child {
+        opacity: 1;
+        padding-left: 10px;
+    }
+
+.buy-info {
+    width: 45%;
+    float: left;
+    height: 100%;
+    font-size:small;
+}
+.buy-info p{
+    padding-top:1.8em;
+    /*POPRAWI� �EBY BY�O R�WNO*/
+}
+.opis
+{
+    clear:both;
+    text-align: center;
+    height:auto;
+    font-size: larger;
+    padding-top:2em;
+}
+.spec-table td {
+    /*border: 1px solid black;*/
+    text-align: left;
+    width: 50%
+}
+.spec-table  {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.spec-table td:first-child 
+{
+    text-align: right;
+    padding-right: 1em;
+}
+.spec-table td:last-child 
+{
+    padding-left: 1em;
+}
+.bestsellers {
+    padding-top: 3em;
+    float: left;
+    height: auto;
+    text-transform: capitalize;
+    width: 20%;
+}
+.bestsellers-name
+{
+    font-size:xx-large;
+    font-weight:bold;
+}
+.bestsellers-items {
+    border: rgb(228, 228, 228) solid 3px;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    text-align:center;
+    height:300px;
+}
+.product-name {
+    width: 100%;
+    height: 20%;
+    font-size: medium;
+    float: left;
+    text-transform: capitalize;
+}
+.product-price {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 1.5em;
+    width: 100%;
+    height: 10%;
+    text-transform:none;
+    clear:both;
+}
+.product-price-1{
+    color: green;
+}
+.product-price-2{
+    color: red;
+    font-size: small;
+}
+.product-price-2 span{
+    text-decoration: line-through;
+}
+.bestsellers-items a
+{
+    text-decoration: none;
+    color: black;
+}
+.product-img {
+    width: 100%;
+    height: 70%;
+    padding: 0;
+}
+.bestsellers-items a:hover {
+    color:rgb(205, 0, 0);
+}
+#Rico
+{
+      width: 100%;
+      height: 100%;
+}
+
+.bestsellers-main
+{
+      padding: 40px 20px 20px 20px;
+      clear: both;
+      height: auto;
+}
+.main-product-name 
+{
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    float: left;
+    text-transform: capitalize;
+}
+
+.main-product-price {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+    width: 100%;
+    height: 10%;
+    clear: both;
+}
+.main-product-img {
+    width: 100%;
+    height: 70%;
+    padding: 0;
+}
+.bestsellers-main a
+{
+      text-decoration: none;
+      color: black;
+}
+.bestsellers-main-items {
+    margin: 0.5em;
+    height: 350px;
+    width: 21.6%;
+    padding: 0.5em;
+    float: left;
+    border: rgb(228, 228, 228) solid 3px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.bestsellers-main-items a:hover {
+    color: rgb(205, 0, 0);
+}
+/* .bestsellers-main-items:nth-child(5n+1)
+{
+      clear: both;
+} */
+
+.category-item {
+    margin: 0.5em;
+    height: 350px;
+    width: 28%;
+    padding: 0.5em;
+    float: left;
+    border: rgb(228, 228, 228) solid 3px;
+    line-height: 1.5em;
+}
+.category-item a {
+    text-decoration: none;
+    color: black;
+    text-align:center;
+}
+.category-item a:hover
+{
+    color: rgb(205, 0, 0);
+}
+.category-product-name {
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    float: left;
+    text-transform: capitalize;
+}
+.category-product-price {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+    width: 100%;
+    height: 10%;
+    clear: both;
+}
+.category-product-price-1 {
+    color: green;
+}
+.category-product-price-2 {
+    color: red;
+    font-size: small;
+}
+.category-product-price-2 span{
+    text-decoration: line-through;
+}
+.category-product-img {
+    width: 100%;
+    height: 70%;
+    padding: 0;
+}
+.stopka
+{
+      height: 100px;
+      padding: 40px;
+      clear: both;
+      text-align: center;
+      font-size: smaller;
+}
+.stopka a
+{
+      color: black;
+}
+
+
